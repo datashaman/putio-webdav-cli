@@ -11,7 +11,7 @@ def suite():
 
 setup(
     pbr=True,
-    # test_suite='setup.suite',
-    # tests_require=['mock'],
+    test_suite='setup.suite',
+    tests_require=['mock'],
     setup_requires=['pbr>=1.9', 'setuptools>=17.1']
 )
